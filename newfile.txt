@@ -1,0 +1,6 @@
+public class Compte
+{
+    public Personne Titulaire { get; set; }
+    public decimal Montant { get; set; }
+    public int CodeUnique { get; set; }
+}
